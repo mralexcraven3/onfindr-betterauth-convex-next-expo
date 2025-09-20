@@ -1,0 +1,20 @@
+{
+  "name": "@onfindr-betterauth-convex-next-expo/backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "convex dev",
+    "dev:setup": "convex dev --configure --until-success"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "convex": "^1.25.4",
+    "better-auth": "1.3.8",
+    "@convex-dev/better-auth": "^0.8.4"
+  }
+}

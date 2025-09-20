@@ -1,0 +1,23 @@
+{
+  "name": "onfindr-betterauth-convex-next-expo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "check-types": "turbo check-types",
+    "dev:native": "turbo -F native dev",
+    "dev:web": "turbo -F web dev",
+    "dev:server": "turbo -F @onfindr-betterauth-convex-next-expo/backend dev",
+    "dev:setup": "turbo -F @onfindr-betterauth-convex-next-expo/backend dev:setup"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "turbo": "^2.5.4"
+  },
+  "packageManager": "pnpm@10.17.0"
+}
